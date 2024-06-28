@@ -13,8 +13,13 @@ body {
 }
 
 main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .title {
@@ -28,13 +33,20 @@ main {
 
 
 .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 100px;
 }
 
 .user__about {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
    
     gap: 50px;
 }
@@ -45,7 +57,8 @@ main {
     background-color: white;
     border-radius: 25px;
     padding: 30px;
-    box-shadow: 0px 0px 5px 2px;
+    -webkit-box-shadow: 0px 0px 5px 2px;
+            box-shadow: 0px 0px 5px 2px;
 }
 
 .user__image {
@@ -110,13 +123,20 @@ main {
     
 
     .user {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         gap: 35px;
     }
 
     .user_picture {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     }
 
     .user__image {
