@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Список дел</h1>
+    <form class="task-adder">
+        <div class="input_container">
+        <div class="task_name-container">
+            <p class="allert_name allert hidden">Введите название задачи!</p>
+            <input type="text" placeholder="Название Задачи" name="task_name" class="input_name">
+        </div>
+        <div class="task-counter">
+            <p class="allert_description allert hidden">Введите описание задачи!</p>
+            <textarea placeholder="Описание Задачи" name="description" class="input_description task-description_area"></textarea>
+        </div>
+        </div>
+        <div class="task-desrciprion">
+        </div>
+        <div class="button_container">
+        <button type="button" class="add_button button_style">добавить подзадачу</button>
+        <button type="reset" class="reset_button button_style">Очистить Все</button>
+        <button type="submit" class="submit_button button_style">Добавить Задачу</button>
+        </div>
+    </form>
+    <div class="tasks-box">
+        <div class="task_container task_container-style">
+            <h2>Активные задачи:</h2>
+        </div>
+        <div class="complite_task task_container-style">
+            <h2>Завершенные задачи</h2>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.task-adder {
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 66);
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.input_name {
+    font-size: 20px;
+    width: 40vw;
+    padding: 20px;
+    border-radius: 10vw;
+}
+
+.task-counter {
+    width: 100%;
+    position: relative;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_style {
+    width: 30vw;
+    padding: 10px;
+    border-radius: 1vw;
+}
+
+.task-desrciprion {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.sub-task {
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 1vw;
+    align-self: flex-start;
+}
+
+
+.task-description_area {
+    resize: none;
+    overflow: hidden;
+
+    padding: 10px;
+    width: 100%;
+    border-radius: 1vw;
+
+}
+
+.clear_button {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.tasks-box {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.task_container-style {
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-basis: 50%;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.complite_task {
+    text-align: right;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid darkgray;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-all; 
+    white-space: normal; 
+
+}
+
+.complite_button {
+    padding: 5px;
+    width: 8vw;
+}
+
+.delete_button {
+    padding: 5px;
+    width: 8vw;
+}
+
+.task-grand-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.sub_container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+
+.task-second-container {
+    display: flex;
+    gap: 20px;
+}
+
+.allert {
+    position:absolute;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+
+    top: -100%;
+    z-index: 5;
+}
+
+.hidden {
+    display: none;
+}
+
+.task_name-container {
+    position:relative;
+}
